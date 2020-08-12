@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/static/css/main.50950e3a.chunk.css",
+    "main.js": "/static/js/main.bcb685f7.chunk.js",
+    "main.js.map": "/static/js/main.bcb685f7.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.13eae8a7.js",
+    "runtime-main.js.map": "/static/js/runtime-main.13eae8a7.js.map",
+    "static/js/2.c5e99a1e.chunk.js": "/static/js/2.c5e99a1e.chunk.js",
+    "static/js/2.c5e99a1e.chunk.js.map": "/static/js/2.c5e99a1e.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.60374662a76e37b7e689f5671eeabe77.js": "/precache-manifest.60374662a76e37b7e689f5671eeabe77.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/main.50950e3a.chunk.css.map": "/static/css/main.50950e3a.chunk.css.map",
+    "static/js/2.c5e99a1e.chunk.js.LICENSE.txt": "/static/js/2.c5e99a1e.chunk.js.LICENSE.txt",
+    "static/media/bae-pondok.jpg": "/static/media/bae-pondok.8cbb732f.jpg",
+    "static/media/fb.svg": "/static/media/fb.3287b2eb.svg",
+    "static/media/github.svg": "/static/media/github.a1bd1c96.svg",
+    "static/media/ig.svg": "/static/media/ig.f6e096d0.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.13eae8a7.js",
+    "static/js/2.c5e99a1e.chunk.js",
+    "static/css/main.50950e3a.chunk.css",
+    "static/js/main.bcb685f7.chunk.js"
+  ]
+}
