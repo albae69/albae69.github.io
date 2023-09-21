@@ -1,3 +1,3 @@
 export default function Portofolio() {
-  return <section className=''>Portofolio</section>
+  return <section className='min-h-[80vh]'>Portofolio</section>
 }
