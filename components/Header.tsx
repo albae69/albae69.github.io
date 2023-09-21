@@ -5,7 +5,10 @@ import { useTheme } from 'next-themes'
 import { Sun, Moon } from 'lucide-react'
 
 export default function Header() {
-  let theme = localStorage.getItem('theme') || 'dark'
+  let theme =
+    typeof window !== 'undefined'
+      ? window.localStorage.getItem('theme')
+      : 'dark'
 
   const { setTheme } = useTheme()
 
