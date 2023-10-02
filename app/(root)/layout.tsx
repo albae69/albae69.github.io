@@ -26,11 +26,13 @@ export default function RootLayout({
       <body
         className={twMerge(
           inter.className,
-          'min-h-screen max-w-screen-lg mx-auto p-4'
+          'min-h-screen max-w-screen-lg mx-auto p-4 flex flex-1 flex-col justify-between'
         )}>
         <ThemeProvider attribute='class' defaultTheme='system' enableSystem>
-          <UnderConstruction />
-          <Header />
+          <div>
+            <UnderConstruction />
+            <Header />
+          </div>
           {children}
           <Footer />
           <Analytics />

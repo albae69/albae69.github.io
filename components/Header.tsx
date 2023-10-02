@@ -13,7 +13,7 @@ export default function Header() {
   const { setTheme } = useTheme()
 
   return (
-    <header className=' flex flex-row flex-1  justify-between items-center h-[90px]'>
+    <header className=' flex flex-row flex-1  justify-between items-center h-[90px] font-mono'>
       <Link href={'/'} aria-label='link to albae69.dev'>
         <h3 className='text-2xl font-bold hover:underline'>Bae Dev</h3>
       </Link>

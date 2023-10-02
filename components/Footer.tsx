@@ -6,7 +6,7 @@ import Icon from './Icon'
 const Footer = () => {
   let year = new Date().getFullYear()
   return (
-    <footer className='h-10 flex justify-between'>
+    <footer className='h-10 flex justify-between font-mono'>
       <h3>© {year}</h3>
       <ul className='flex gap-4'>
         <Link
