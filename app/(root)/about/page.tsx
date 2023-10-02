@@ -31,7 +31,7 @@ export default function About() {
             aria-label='link to asia cyber university'>
             <li className='hover:underline flex justify-between inline mb-2'>
               <p>Asia Cyber University - S1 PJJ Informatika</p>
-              <p>2021 - current</p>
+              <p>2021 - present</p>
             </li>
           </Link>
           <Link

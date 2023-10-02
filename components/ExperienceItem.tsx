@@ -22,14 +22,18 @@ function Project({ link, project_name, what }: ProjectProps) {
           href={link}
           target='_blank'
           aria-label='link to smart pln google play store'>
-          <strong className='hover:underline'>{project_name}</strong>
+          <strong className='hover:underline text-sm'>{project_name}</strong>
         </Link>
       ) : (
-        <p className='hover:underline cursor-pointer'>{project_name}</p>
+        <strong className='hover:underline cursor-pointer text-sm'>
+          {project_name}
+        </strong>
       )}
-      <ul className='list-disc px-4'>
+      <ul className='list-disc px-4 mb-4'>
         {what.map((w, idx) => (
-          <li key={idx}>{w}</li>
+          <li className='text-md' key={idx}>
+            {w}
+          </li>
         ))}
       </ul>
     </div>
@@ -45,8 +49,8 @@ export function ExperienceItem({
 }: ExperienceItemsProps) {
   return (
     <div className='py-3'>
-      <p className='text-base py-2 flex items-center justify-between'>
-        <strong>
+      <p className='py-2 flex items-center justify-between'>
+        <strong className='text-base'>
           {as} at {where}
         </strong>
 
