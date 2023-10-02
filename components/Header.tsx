@@ -22,19 +22,14 @@ export default function Header() {
           href='/about'
           className='hover:underline'
           aria-label='link to about page'>
-          <li>about</li>
+          <li>About</li>
         </Link>
         <Link
-          href='/uses'
+          href='https://drive.google.com/file/d/1udiEPdlktEMPVibT4n0JwvibnmLCgT4D/view?usp=sharing'
+          target='_blank'
           className='hover:underline'
           aria-label='link to uses page'>
-          <li>uses</li>
-        </Link>
-        <Link
-          href='/portofolio'
-          className='hover:underline'
-          aria-label='link to portofolio page'>
-          <li>portofolio</li>
+          <li>CV</li>
         </Link>
         <div
           className='cursor-pointer'
