@@ -7,9 +7,9 @@ export default function About() {
   let birthYear = currentYear - 2000
 
   return (
-    <main className='mb-[100px] font-mono'>
+    <main className='mb-[100px]'>
       <section className='py-5'>
-        <p className='text-base'>
+        <p className='text-base md:text-xl'>
           I am a {birthYear} y.o frontend developer and have been a frontend
           developer since mid 2019. I work with HTML,CSS,Tailwind, JavaScript,
           TypeScript and using Framework such a React Native to create a mobile

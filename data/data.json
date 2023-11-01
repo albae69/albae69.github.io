@@ -34,14 +34,14 @@
           "project_name": "HIS - Siloam Hospital",
           "what": [
             "Develop Web App using NextJS",
-            "Develop a create patient feature (module)",
+            "Develop a create patient feature",
             "Slicing design from figma",
             "Integrate api from backend"
           ]
         },
         {
           "link": "",
-          "project_name": "DEX 2 (Not Done Yet When I'm working on it)",
+          "project_name": "DEX v2",
           "what": [
             "Develop a mobile application using React Native",
             "Slicing design from figma",
