@@ -34,6 +34,14 @@ const Footer = () => {
             <Icon name='twitter' />
           </li>
         </Link>
+        <Link
+          href='https://t.me/albae69'
+          target='_blank'
+          aria-label='link to telegram'>
+          <li className='hover:underline'>
+            <Icon name='message-circle' />
+          </li>
+        </Link>
       </ul>
     </footer>
   )

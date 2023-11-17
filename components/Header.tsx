@@ -15,9 +15,17 @@ export default function Header() {
   return (
     <header className=' flex flex-row flex-1  justify-between items-center h-[90px]'>
       <Link href={'/'} aria-label='link to albae69.dev'>
-        <h3 className='text-base md:text-2xl font-bold hover:underline'>Bae Dev</h3>
+        <h3 className='text-base md:text-2xl font-bold hover:underline'>
+          Bae Dev
+        </h3>
       </Link>
       <ul className='flex gap-5 text-sm md:text-base '>
+        <Link
+          href='/blog'
+          className='hover:underline'
+          aria-label='link to about page'>
+          <li>Blog</li>
+        </Link>
         <Link
           href='/about'
           className='hover:underline'
