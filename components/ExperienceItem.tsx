@@ -55,7 +55,7 @@ export function ExperienceItem({
         </strong>
 
         <p>
-          {from} - {to}
+    {`${from} ${to != "" ? " - " : ""} ${to}`}
         </p>
       </p>
       {project.map((item, idx) => (
