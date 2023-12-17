@@ -1,6 +1,21 @@
 {
   "experience": [
     {
+      "where": "PT. Karya Generasi Biru",
+      "as": "Frontend Developer",
+      "from": "2023",
+      "to": "",
+      "project": [
+        {
+          "link": "",
+          "project_name": "Shieldtag Web",
+          "what": [
+            "Migrate current web from Wix into NextJS with Strapi CMS"
+          ]
+        }
+      ]
+    },
+    {
       "where": "PT. Kode Kolektif Indonesia",
       "as": "Mobile Developer",
       "from": "2023",
