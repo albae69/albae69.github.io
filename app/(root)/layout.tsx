@@ -1,6 +1,7 @@
 import { Analytics } from '@vercel/analytics/react'
+import { GoogleTagManager } from '@next/third-parties/google'
 import type { Metadata } from 'next'
-import { GeistSans } from "geist/font";
+import { GeistSans } from 'geist/font'
 import { twMerge } from 'tailwind-merge'
 
 import Header from '@/components/Header'
@@ -8,8 +9,6 @@ import '../globals.css'
 import { ThemeProvider } from '@/components/ThemeProvider'
 import Footer from '@/components/Footer'
 import UnderConstruction from '@/components/UnderConstruction'
-
-
 
 export const metadata: Metadata = {
   title: 'Bae Dev - Frontend Developer',
@@ -35,7 +34,12 @@ export default function RootLayout({
           </div>
           {children}
           <Footer />
-          <Analytics />
+          {process.env.NODE_ENV === 'production' && (
+            <>
+              <Analytics />
+              <GoogleTagManager gtmId='GTM-P82WVJQ' />
+            </>
+          )}
         </ThemeProvider>
       </body>
     </html>
