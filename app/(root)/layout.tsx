@@ -1,5 +1,4 @@
 import { Analytics } from '@vercel/analytics/react'
-import { GoogleTagManager, GoogleAnalytics } from '@next/third-parties/google'
 import type { Metadata } from 'next'
 import { GeistSans } from 'geist/font'
 import { twMerge } from 'tailwind-merge'
@@ -37,8 +36,6 @@ export default function RootLayout({
           {process.env.NODE_ENV === 'production' && (
             <>
               <Analytics />
-              <GoogleTagManager gtmId='GTM-P82WVJQ' />
-              <GoogleAnalytics gaId='G-99JLNMJPKW' />
             </>
           )}
         </ThemeProvider>

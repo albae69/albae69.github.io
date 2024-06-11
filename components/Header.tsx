@@ -21,12 +21,6 @@ export default function Header() {
       </Link>
       <ul className='flex gap-5 text-sm md:text-base '>
         <Link
-          href='/blog'
-          className='hover:underline'
-          aria-label='link to about page'>
-          <li>Blog</li>
-        </Link>
-        <Link
           href='/about'
           className='hover:underline'
           aria-label='link to about page'>
