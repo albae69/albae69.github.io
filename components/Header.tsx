@@ -19,20 +19,6 @@ export default function Header() {
           Bae Dev
         </h3>
       </Link>
-      <ul className='flex gap-5 text-sm md:text-base '>
-        <Link
-          href='/about'
-          className='hover:underline'
-          aria-label='link to about page'>
-          <li>About</li>
-        </Link>
-        <Link
-          href='https://drive.google.com/file/d/1udiEPdlktEMPVibT4n0JwvibnmLCgT4D/view?usp=sharing'
-          target='_blank'
-          className='hover:underline'
-          aria-label='link to uses page'>
-          <li>CV</li>
-        </Link>
         <div
           className='cursor-pointer'
           onClick={() =>
@@ -40,7 +26,6 @@ export default function Header() {
           }>
           {theme == 'dark' ? <Icon name='sun' /> : <Icon name='moon' />}
         </div>
-      </ul>
     </header>
   )
 }
