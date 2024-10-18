@@ -21,11 +21,6 @@ export default function Home() {
       </p>
       <ul className='list-disc p-4'>
         <li className='mb-2'>
-          <Link href='/blog' className='text-blue-500 underline'>
-            blog
-          </Link>
-        </li>
-        <li className='mb-2'>
           <a
             target='_blank'
             href='https://github.com/albae69'
