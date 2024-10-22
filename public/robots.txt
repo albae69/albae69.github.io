@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://www.albae69.dev
+
+# Sitemaps
+Sitemap: https://www.albae69.dev/sitemap.xml

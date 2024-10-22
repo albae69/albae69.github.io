@@ -17,7 +17,7 @@ export default function Home() {
           looking for a frontend web/mobile developer?{' '}
           <a
             href='mailto:ahmadalbaihaqi69@gmail.com'
-            className='underline text-gray-100'>
+            className='underline text-black dark:text-gray-100'>
             contact me
           </a>
         </p>
