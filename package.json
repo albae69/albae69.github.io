@@ -10,7 +10,6 @@
     "postbuild": "next-sitemap"
   },
   "dependencies": {
-    "@vercel/speed-insights": "^1.0.13",
     "next": "15.0.0",
     "next-sitemap": "^4.2.3",
     "react": "19.0.0-rc-65a56d0e-20241020",
