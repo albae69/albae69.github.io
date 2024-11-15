@@ -11,11 +11,11 @@ export default function Home() {
         <p className='text-lg'>
           i am an experienced frontend developer working with react & react
           native.
-          <br />i am currently exploring flutter & golang.
         </p>
         <p className='text-lg'>
           looking for a frontend web/mobile developer?{' '}
           <a
+            rel='noreferrer'
             href='mailto:ahmadalbaihaqi69@gmail.com'
             className='underline text-black dark:text-gray-100'>
             contact me
