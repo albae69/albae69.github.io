@@ -1,0 +1,1 @@
+import{j as e}from"./index-DMJQ9878.js";const r=function(){return e.jsx("div",{className:"my-4",children:e.jsxs("p",{children:["emm..., still figure it out, just check my"," ",e.jsx("a",{href:"http://github.com/albae69",target:"_blank",rel:"noopener noreferrer",children:"guthib"})," ","- even there's nothing to see"]})})};export{r as component};
