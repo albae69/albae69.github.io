@@ -1,0 +1,1 @@
+import{j as o}from"./index-DXLEKAqX.js";import"https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";import"https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";const s=function(){return o.jsx("div",{className:"p-2",children:"Projects page under construction ⚠️"})};export{s as component};
