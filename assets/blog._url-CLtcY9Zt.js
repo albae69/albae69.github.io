@@ -1,4 +1,0 @@
-import{j as t}from"./index-DMJQ9878.js";function o(n){const e={p:"p",...n.components};return t.jsxs(t.Fragment,{children:[t.jsxs(e.p,{children:[t.jsx("h1",{className:"text-black font-bold text-2xl",children:"Hello World!"}),`\r
-12 June 2025`]}),`
-`,t.jsx("br",{}),`
-`,t.jsx(e.p,{children:"This is my first post build with mdx-js/react."})]})}function r(n={}){const{wrapper:e}=n.components||{};return e?t.jsx(e,{...n,children:t.jsx(o,{...n})}):o(n)}const c={em(n){return t.jsx("i",{...n})}};function i(n){switch(n){case"hello_world":return t.jsx(r,{components:c});default:return null}}const a=function(){const{pathname:e}=window.location,s=e.split("/")[2];return t.jsx("div",{className:"my-4",children:i(s)})};export{a as component};

@@ -1,1 +1,0 @@
-import{j as l,L as r}from"./index-DMJQ9878.js";const t=[{title:"Hello World!",url:"hello_world"}],e=function(){return l.jsx("div",{className:"p-2",children:l.jsx("ul",{children:t.map(o=>l.jsx("li",{children:l.jsx(r,{to:"/blog/$url",params:{url:o.url},children:o.title})},o.title))})})};export{e as component};
