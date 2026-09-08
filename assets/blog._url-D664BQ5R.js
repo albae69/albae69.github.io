@@ -1,4 +1,4 @@
-import{j as e,u as c,R as a,L as o}from"./index--S2t0dUw.js";import"https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";import"https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";function i(s){const n={p:"p",...s.components};return e.jsxs(e.Fragment,{children:[e.jsxs(n.p,{children:[e.jsx("h1",{className:"text-black font-bold text-2xl",children:"Hello World!"}),`\r
+import{j as e,u as c,R as a,L as o}from"./index-bhUClAnQ.js";import"https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js";import"https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js";function i(s){const n={p:"p",...s.components};return e.jsxs(e.Fragment,{children:[e.jsxs(n.p,{children:[e.jsx("h1",{className:"text-black font-bold text-2xl",children:"Hello World!"}),`\r
 12 June 2025`]}),`
 `,e.jsx("br",{}),`
 `,e.jsx(n.p,{children:"This is my first post build with mdx-js/react."})]})}function d(s={}){const{wrapper:n}=s.components||{};return n?e.jsx(n,{...s,children:e.jsx(i,{...s})}):i(s)}function t(s){const n={p:"p",...s.components};return e.jsxs(e.Fragment,{children:[e.jsxs(n.p,{children:[e.jsx("h1",{className:"text-black font-bold text-2xl",children:"Summary"}),`\r
