@@ -16,24 +16,54 @@
       rel="stylesheet"
     />
     <title>Ahmad Albaihaqi | Software Engineer</title>
-    <script type="module" crossorigin src="/assets/index-BRp8aN4e.js"></script>
+    <script type="module" crossorigin src="/assets/index-CkxuFrrT.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-CWKvoPod.css">
   </head>
   <body>
     <div id="root"></div>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-C0NZC8VWH3"
-    ></script>
     <script>
-      window.dataLayer = window.dataLayer || []
-      function gtag() {
-        dataLayer.push(arguments)
-      }
-      gtag('js', new Date())
+      // Defer analytics loading until after page is interactive
+      function loadAnalytics() {
+        // Firebase Analytics
+        import('https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js')
+          .then(({ initializeApp }) =>
+            import('https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js').then(
+              ({ getAnalytics }) => {
+                const firebaseConfig = {
+                  apiKey: 'AIzaSyBc601C2uQqekptBesEut2fZ-2W3EMHBFc',
+                  authDomain: 'albae69-b9ceb.firebaseapp.com',
+                  projectId: 'albae69-b9ceb',
+                  storageBucket: 'albae69-b9ceb.firebasestorage.app',
+                  messagingSenderId: '700464566930',
+                  appId: '1:700464566930:web:5da7e8be0e994a76258c4b',
+                  measurementId: 'G-1VMJE2L11H',
+                }
+                const app = initializeApp(firebaseConfig)
+                getAnalytics(app)
+              },
+            ),
+          )
+          .catch(() => {})
 
-      gtag('config', 'G-C0NZC8VWH3')
+        // Google Analytics gtag
+        const s = document.createElement('script')
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-C0NZC8VWH3'
+        s.async = true
+        document.head.appendChild(s)
+        window.dataLayer = window.dataLayer || []
+        function gtag() {
+          dataLayer.push(arguments)
+        }
+        gtag('js', new Date())
+        gtag('config', 'G-C0NZC8VWH3')
+      }
+
+      // Load after page is interactive or after 3s timeout
+      if ('requestIdleCallback' in window) {
+        requestIdleCallback(loadAnalytics, { timeout: 3000 })
+      } else {
+        window.addEventListener('load', () => setTimeout(loadAnalytics, 3000))
+      }
     </script>
   </body>
 </html>
