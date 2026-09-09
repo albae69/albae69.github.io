@@ -1,4 +1,4 @@
-import{j as n}from"./index-CkxuFrrT.js";function r(t){const e={p:"p",...t.components};return n.jsxs(n.Fragment,{children:[n.jsxs(e.p,{children:[n.jsx("h1",{className:"text-black font-bold text-2xl",children:"Summary"}),`\r
+import{j as n}from"./index-CPtskkYT.js";function r(t){const e={p:"p",...t.components};return n.jsxs(n.Fragment,{children:[n.jsxs(e.p,{children:[n.jsx("h1",{className:"text-black font-bold text-2xl",children:"Summary"}),`\r
 15 Dec 2025`]}),`
 `,n.jsx("br",{}),`
 `,n.jsx(e.p,{children:"hmm... what i'm doing."}),`
