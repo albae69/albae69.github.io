@@ -1,4 +1,4 @@
-import{j as e}from"./index-Bx462_NY.js";function t(s){const n={code:"code",em:"em",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx("h1",{className:"text-black font-bold text-2xl !mb-2",children:e.jsx(n.p,{children:"My Stack for New Projects"})}),`
+import{j as e}from"./index-Cdwfc7Zh.js";function t(s){const n={code:"code",em:"em",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx("h1",{className:"text-black font-bold text-2xl !mb-2",children:e.jsx(n.p,{children:"My Stack for New Projects"})}),`
 `,e.jsx("span",{className:"font-mono text-xs text-zinc-400",children:e.jsx(n.p,{children:"11 September 2026 · 6 min read"})}),`
 `,e.jsx(n.hr,{}),`
 `,e.jsxs(n.p,{children:["People ask me all the time: ",e.jsx(n.em,{children:'"If you were starting a new project today, what would you use?"'})," This is my answer — the stack I reach for by default, why I chose each piece, and the exact commands to get started."]}),`
