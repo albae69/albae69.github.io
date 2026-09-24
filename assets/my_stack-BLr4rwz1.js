@@ -1,4 +1,4 @@
-import{j as e}from"./index-DJi7FCVD.js";function t(s){const n={code:"code",em:"em",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx("h1",{className:"text-black font-bold text-2xl !mb-2",children:e.jsx(n.p,{children:"My Stack for New Projects"})}),`
+import{j as e}from"./main-CCbaGOkm.js";import"./index-fdH5UDSl.js";function t(s){const n={code:"code",em:"em",h2:"h2",hr:"hr",li:"li",ol:"ol",p:"p",pre:"pre",strong:"strong",ul:"ul",...s.components};return e.jsxs(e.Fragment,{children:[e.jsx("h1",{className:"text-black font-bold text-2xl !mb-2",children:e.jsx(n.p,{children:"My Stack for New Projects"})}),`
 `,e.jsx("span",{className:"font-mono text-xs text-zinc-400",children:e.jsx(n.p,{children:"11 September 2026 · 6 min read"})}),`
 `,e.jsx(n.hr,{}),`
 `,e.jsxs(n.p,{children:["People ask me all the time: ",e.jsx(n.em,{children:'"If you were starting a new project today, what would you use?"'})," This is my answer — the stack I reach for by default, why I chose each piece, and the exact commands to get started."]}),`
@@ -88,4 +88,4 @@ curl https://openrouter.ai/api/v1/chat/completions \\
 `,e.jsxs(n.li,{children:[e.jsx(n.strong,{children:"Right tool per layer"})," — React for the web, Flutter/RN for mobile, Go when the backend needs to be fast. No one-size-fits-all dogma."]}),`
 `]}),`
 `,e.jsx(n.h2,{children:"The Golden Rule"}),`
-`,e.jsx(n.p,{children:"The stack is a starting point, not a contract. If a project needs something different — a database, a queue, a different framework — I swap that one piece and keep the rest. The goal is to spend zero time on setup and all of it on the actual problem."})]})}function i(s={}){const{wrapper:n}=s.components||{};return n?e.jsx(n,{...s,children:e.jsx(t,{...s})}):t(s)}export{i as default};
+`,e.jsx(n.p,{children:"The stack is a starting point, not a contract. If a project needs something different — a database, a queue, a different framework — I swap that one piece and keep the rest. The goal is to spend zero time on setup and all of it on the actual problem."})]})}function l(s={}){const{wrapper:n}=s.components||{};return n?e.jsx(n,{...s,children:e.jsx(t,{...s})}):t(s)}export{l as default};

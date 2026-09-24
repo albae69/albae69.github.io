@@ -4,6 +4,7 @@
   <url><loc>https://albae69.github.io/about</loc><changefreq>monthly</changefreq><priority>0.8</priority></url>
   <url><loc>https://albae69.github.io/projects</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
   <url><loc>https://albae69.github.io/blog</loc><changefreq>weekly</changefreq><priority>0.9</priority></url>
+  <url><loc>https://albae69.github.io/blog/lighthouse_performance</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://albae69.github.io/blog/standout_ai_era</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://albae69.github.io/blog/frontend_dev_dead</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
   <url><loc>https://albae69.github.io/blog/future_coding_ai</loc><changefreq>yearly</changefreq><priority>0.7</priority></url>
