@@ -1,9 +1,6 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <script>
-      if (location.pathname !== '/') document.documentElement.classList.add('skip-boot')
-    </script>
     <meta charset="UTF-8" />
     <link rel="icon" href="/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -14,7 +11,7 @@
     />
     <link rel="canonical" href="https://albae69.github.io/" />
     <meta name="robots" content="index, follow" />
-    <meta name="theme-color" content="#059669" />
+    <meta name="theme-color" content="#f4f1eb" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="Ahmad Albaihaqi" />
     <meta property="og:title" content="Ahmad Albaihaqi | Software Engineer" />
@@ -37,98 +34,24 @@
       name="twitter:image"
       content="https://albae69.github.io/og-image.svg"
     />
-    <link
-      rel="preload"
-      as="image"
-      href="/profile-240.webp"
-      fetchpriority="high"
-    />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+      href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
       rel="stylesheet"
       media="print"
       onload="this.media='all'"
     />
     <noscript>
       <link
-        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap"
+        href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500&display=swap"
         rel="stylesheet"
       />
     </noscript>
     <title>Ahmad Albaihaqi | Software Engineer</title>
-    <style>
-      #boot-screen {
-        position: fixed;
-        inset: 0;
-        z-index: 100;
-        display: grid;
-        place-items: center;
-        background: #fafafa;
-        color: #0a0a0b;
-      }
-      .dark #boot-screen {
-        background: #0a0a0b;
-        color: #fafafa;
-      }
-      #boot-screen .boot-inner {
-        width: min(90vw, 42rem);
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        gap: 2rem;
-      }
-      #boot-screen .boot-copy {
-        flex: 1;
-      }
-      #boot-screen h1 {
-        margin: 0;
-        font: 700 clamp(2rem, 8vw, 3.5rem) / 1.1 system-ui, sans-serif;
-      }
-      #boot-screen p {
-        margin: 0.75rem 0 0;
-        font: 1rem / 1.5 system-ui, sans-serif;
-      }
-      #boot-screen img {
-        width: min(45vw, 18rem);
-        aspect-ratio: 1;
-        object-fit: cover;
-        border-radius: 2rem;
-      }
-      .app-ready #boot-screen,
-      .skip-boot #boot-screen {
-        display: none;
-      }
-      @media (max-width: 640px) {
-        #boot-screen .boot-inner {
-          flex-direction: column-reverse;
-          gap: 1rem;
-        }
-        #boot-screen img {
-          width: min(60vw, 15rem);
-        }
-      }
-    </style>
-    <script type="module" crossorigin src="/assets/index-BiohcOg1.js"></script>
+    <script type="module" crossorigin src="/assets/index-CEE1MH8v.js"></script>
   </head>
   <body>
-    <div id="boot-screen">
-      <div class="boot-inner">
-        <div class="boot-copy">
-          <h1>Ahmad Albaihaqi</h1>
-          <p>Software Engineer</p>
-        </div>
-        <img
-          src="/profile-240.webp"
-          alt="Ahmad Albaihaqi"
-          width="240"
-          height="240"
-          decoding="sync"
-          fetchpriority="high"
-        />
-      </div>
-    </div>
     <div id="root"></div>
     <script>
       // Keep third-party analytics off the critical path.
