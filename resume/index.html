@@ -1,0 +1,93 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" href="/favicon.ico" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Resume of Ahmad Albaihaqi — Software Engineer with 5+ years across web, mobile, backend and cloud." />
+    <link rel="canonical" href="https://albae69.github.io/resume" />
+    <meta name="robots" content="index, follow" />
+    <meta
+      name="theme-color"
+      content="#ffffff"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#0a0a0a"
+      media="(prefers-color-scheme: dark)"
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="Ahmad Albaihaqi" />
+    <meta property="og:title" content="Resume | Ahmad Albaihaqi" />
+    <meta property="og:description" content="Resume of Ahmad Albaihaqi — Software Engineer with 5+ years across web, mobile, backend and cloud." />
+    <meta property="og:url" content="https://albae69.github.io/resume" />
+    <meta property="og:image" content="https://albae69.github.io/og-image.png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta
+      property="og:image:alt"
+      content="Ahmad Albaihaqi — Software Engineer"
+    />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Resume | Ahmad Albaihaqi" />
+    <meta name="twitter:description" content="Resume of Ahmad Albaihaqi — Software Engineer with 5+ years across web, mobile, backend and cloud." />
+    <meta name="twitter:image" content="https://albae69.github.io/og-image.png" />
+    <meta
+      name="twitter:image:alt"
+      content="Ahmad Albaihaqi — Software Engineer"
+    />
+    <title>Resume | Ahmad Albaihaqi</title>
+    <script type="module" crossorigin src="/assets/index-B63PINBY.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-CArAxID_.css">
+  </head>
+  <body>
+    <div id="root"></div>
+    <script>
+      // Keep third-party analytics off the critical path.
+      let analyticsLoaded = false
+
+      function loadAnalytics() {
+        if (analyticsLoaded) return
+        analyticsLoaded = true
+
+        // Firebase Analytics
+        import('https://www.gstatic.com/firebasejs/11.9.1/firebase-app.js')
+          .then(({ initializeApp }) =>
+            import('https://www.gstatic.com/firebasejs/11.9.1/firebase-analytics.js').then(
+              ({ getAnalytics }) => {
+                const firebaseConfig = {
+                  apiKey: 'AIzaSyBc601C2uQqekptBesEut2fZ-2W3EMHBFc',
+                  authDomain: 'albae69-b9ceb.firebaseapp.com',
+                  projectId: 'albae69-b9ceb',
+                  storageBucket: 'albae69-b9ceb.firebasestorage.app',
+                  messagingSenderId: '700464566930',
+                  appId: '1:700464566930:web:5da7e8be0e994a76258c4b',
+                  measurementId: 'G-1VMJE2L11H',
+                }
+                const app = initializeApp(firebaseConfig)
+                getAnalytics(app)
+              },
+            ),
+          )
+          .catch(() => {})
+
+        // Google Analytics gtag
+        const s = document.createElement('script')
+        s.src = 'https://www.googletagmanager.com/gtag/js?id=G-C0NZC8VWH3'
+        s.async = true
+        document.head.appendChild(s)
+        window.dataLayer = window.dataLayer || []
+        function gtag() {
+          dataLayer.push(arguments)
+        }
+        gtag('js', new Date())
+        gtag('config', 'G-C0NZC8VWH3')
+      }
+
+      for (const event of ['pointerdown', 'pointermove', 'keydown', 'touchstart']) {
+        window.addEventListener(event, loadAnalytics, { once: true, passive: true })
+      }
+    </script>
+  </body>
+</html>

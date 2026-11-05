@@ -1,0 +1,1 @@
+import{j as s,a as t,C as c}from"./index-B63PINBY.js";function a({title:e,href:i,children:n}){return s.jsxs("section",{className:"section",children:[i?s.jsxs(t,{to:i,className:"section-title",children:[e,s.jsx(c,{size:18})]}):s.jsx("h2",{className:"section-title",children:e}),n]})}export{a as S};
